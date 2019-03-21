@@ -1,12 +1,18 @@
+font-family: 'Mukta Mahee', sans-serif;
+
 div {
   /* color: purple; */
 }
 
-h3 {
+h1 {
+  font-family: 'Mukta Mahee', sans-serif;
+  font-weight: 800;
   width: 400px;
 }
 
 .expression-input, .evaluate, .clear {
+  font-family: 'Mukta Mahee', sans-serif;
+  font-weight: 500;
   width: 78px;
 }
 
