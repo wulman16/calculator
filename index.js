@@ -13,7 +13,7 @@ function populateExpression(e) {
   } else if(e.target.className === 'evaluate') {
     const expression = document.getElementById('expression')
     try {
-      eval(expression.value)
+      expression.value = eval(expression.value)
     }
     catch(err) {
       expression.value = 'ERROR'
