@@ -1,3 +1,19 @@
 div {
-  color: purple;
+  /* color: purple; */
+}
+
+h3 {
+  width: 400px;
+}
+
+.expression-input, .evaluate, .clear {
+  width: 78px;
+}
+
+.btn-toolbar {
+  width: 400px;
+}
+
+#expression {
+  width: 400px;
 }
